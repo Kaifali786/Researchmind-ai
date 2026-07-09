@@ -1,0 +1,68 @@
+# ============================================
+# ResearchMind AI — .gitignore
+# ============================================
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+*.tsbuildinfo
+
+# Docker
+docker-compose.override.yml
+
+# Uploads and data
+uploads/
+chroma_data/
+*.pdf
+*.docx
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+
+# Alembic
+backend/app/db/migrations/versions/*.py
+!backend/app/db/migrations/versions/.gitkeep
+
+# Misc
+*.log
+*.bak
+*.tmp
