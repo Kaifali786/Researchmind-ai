@@ -10,8 +10,9 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import get_settings
-from app.models.document import Document, DocumentChunk
-from app.models.chat import ChatSession, ChatMessage
+from app.models.document import DocumentChunk
+
+
 
 settings = get_settings()
 
@@ -129,7 +130,6 @@ class RAGService:
         
         for idx, doc in enumerate(retrieved_docs):
             page = doc.metadata.get("page_number", 1)
-            doc_id = doc.metadata.get("document_id")
             
             # Format context block with citation tags
             context_parts.append(

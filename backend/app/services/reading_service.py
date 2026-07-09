@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 from app.core.config import get_settings
-from app.models.document import Document, DocumentChunk
+from app.models.document import DocumentChunk
 
 settings = get_settings()
 

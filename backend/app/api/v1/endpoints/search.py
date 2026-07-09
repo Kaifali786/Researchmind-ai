@@ -1,4 +1,6 @@
+import uuid
 from typing import Any
+
 
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import select
@@ -79,4 +81,3 @@ async def semantic_search(
     return formatted_results
 
 
-import uuid

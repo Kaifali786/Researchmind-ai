@@ -9,7 +9,6 @@ from app.api.deps import get_current_active_user
 from app.db.session import get_db
 from app.models.user import User
 from app.models.chat import ChatSession, ChatMessage, MessageRole
-from app.repositories.base import BaseRepository
 from app.schemas.chat import (
     ChatCreate,
     ChatResponse,
