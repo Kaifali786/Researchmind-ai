@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![CI Pipeline](https://github.com/Kaifali786/Researchmind-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Kaifali786/Researchmind-ai/actions/workflows/ci.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB.svg)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6.svg)](https://www.typescriptlang.org/)
